@@ -11,6 +11,7 @@ GEN_CMDS__FLAG :=
 
 ORDERED_OBJS += \
 "./ADC.obj" \
+"./capteur_lumiere.obj" \
 "./main.obj" \
 "./moveRobot.obj" \
 "./ultrasonicSensor.obj" \
@@ -157,8 +158,8 @@ Robot16.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "ADC.obj" "main.obj" "moveRobot.obj" "ultrasonicSensor.obj" 
-	-$(RM) "ADC.d" "main.d" "moveRobot.d" "ultrasonicSensor.d" 
+	-$(RM) "ADC.obj" "capteur_lumiere.obj" "main.obj" "moveRobot.obj" "ultrasonicSensor.obj" 
+	-$(RM) "ADC.d" "capteur_lumiere.d" "main.d" "moveRobot.d" "ultrasonicSensor.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

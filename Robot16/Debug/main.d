@@ -7,6 +7,7 @@ main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include/intr
 main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include/intrinsics_legacy_undefs.h
 main.obj: ../moveRobot.h
 main.obj: ../ultrasonicSensor.h
+main.obj: ../capteur_lumiere.h
 main.obj: ../ADC.h
 
 ../main.c:
@@ -22,6 +23,8 @@ C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include/intrinsics_leg
 ../moveRobot.h:
 
 ../ultrasonicSensor.h:
+
+../capteur_lumiere.h:
 
 ../ADC.h:
 

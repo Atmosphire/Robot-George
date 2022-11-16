@@ -28,10 +28,10 @@ void setForwardLow(void){
     TA1CCR0 = 1000;                        // PWM period
     TA1CTL |= TASSEL_2 + MC_1;              // SMCLK, Up Mode (Counts to TA0CCR0)
 
-    TA1CCR1 = 50;                         // TA0CCR1 PWM duty cycle for motor A
+    TA1CCR1 = 75;                         // TA0CCR1 PWM duty cycle for motor A
     TA1CCTL1 |= OUTMOD_7;                   // TA0CCR1 output mode = reset/set for motor A
 
-    TA1CCR2 = 50;                         // TA0CCR1 PWM duty cycle for motor B
+    TA1CCR2 = 75;                         // TA0CCR1 PWM duty cycle for motor B
     TA1CCTL2 |= OUTMOD_7;                   // TA0CCR1 output mode = reset/set for motor B
 }
 
@@ -45,10 +45,10 @@ void turn(void){
     TA1CCR0 = 1000;                        // PWM period
     TA1CTL |= TASSEL_2 + MC_1;              // SMCLK, Up Mode (Counts to TA0CCR0)
 
-    TA1CCR1 = 180;                         // TA0CCR1 PWM duty cycle for motor A
+    TA1CCR1 = 10;                         // TA0CCR1 PWM duty cycle for motor A
     TA1CCTL1 |= OUTMOD_7;                   // TA0CCR1 output mode = reset/set for motor A
 
-    TA1CCR2 = 180;                         // TA0CCR1 PWM duty cycle for motor B
+    TA1CCR2 = 10;                         // TA0CCR1 PWM duty cycle for motor B
     TA1CCTL2 |= OUTMOD_7;                   // TA0CCR1 output mode = reset/set for motor B
 }
 

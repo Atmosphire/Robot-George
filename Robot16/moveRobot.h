@@ -8,6 +8,7 @@ void setForward(void);  /* Function declaration */
 void setRight(void);  /* Function declaration */
 void setLeft(void);  /* Function declaration */
 void setStop(void);  /* Function declaration */
+void turn(void);  /* Function declaration */
 void setForwardLow(void);  /* Function declaration */
 
 #endif // moveRobot_H_
