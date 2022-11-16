@@ -1,0 +1,1 @@
+"./ADC.obj" "./main.obj" "./moveRobot.obj" "./ultrasonicSensor.obj" "../lnk_msp430g2553.cmd" -llibc.a 
